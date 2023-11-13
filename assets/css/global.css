@@ -1,0 +1,22 @@
+/* Import Font - Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Variables CSS */
+:root {
+
+    /* Colors */
+    --main-color: #8E2424;
+    --logo-color: #3A404E;
+    --title-color: #101828;
+    --text-color: #667085;
+    --base-white: #ffffff;
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: 'Inter', sans-serif;
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+}
