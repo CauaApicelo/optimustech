@@ -1,0 +1,52 @@
+.about_us {
+    text-align: center;
+    margin: 6rem 0rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.about_us_presentation span {
+    color: var(--main-color);
+    font-weight: var(--font-semi-bold);
+}
+
+.about_us_presentation h1 {
+    color: var(--title-color);
+    font-size: 3rem;
+    font-weight: var(--font-semi-bold);
+    padding: 2.25rem 0rem;
+}
+
+.about_us_presentation p {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: var(--font-regular);
+    padding-bottom: 6rem;
+}
+
+.about_us_findings {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_us_findings article {
+    text-align: start;
+}
+
+.about_us_findings h2 {
+    color: var(--main-color);
+    font-size: 3.75rem;
+    font-weight: var(--font-semi-bold);
+}
+
+.about_us_findings span {
+    color: var(--title-color);
+    font-size: 1.125rem;
+    font-weight: var(--font-medium);
+}
+
+.about_us_findings p {
+    color: var(--text-color);
+font-weight: var(--font-regular);
+line-height: 1.5rem; /* 150% */
+}
