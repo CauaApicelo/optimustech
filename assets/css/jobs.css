@@ -1,0 +1,63 @@
+.jobs {
+    text-align: center;
+    padding: 6rem 0 4rem 0;
+}
+
+.jobs span {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: var(--font-medium);
+    line-height: 1.25rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    background: rgba(142, 36, 36, 0.05);
+}
+
+.jobs h2 {
+    color: var(--title-color);
+    font-size: 2.25rem;
+    font-weight: var(--font-semi-bold);
+    line-height: 2.75rem;
+    letter-spacing: -0.045rem;
+    padding: 1rem 0rem 1.25rem 0rem;
+}
+
+.jobs p {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: var(--font-regular);
+    line-height: 1.875rem;
+}
+
+.jobs img {
+    width: 86%;
+    height: 20%;
+    padding: 4rem 7rem;
+}
+
+.jobs_jobs h3 {
+    color: var(--title-color);
+    font-size: 1.25rem;
+    font-weight: var(--font-medium);
+    line-height: 1.875rem;
+}
+
+.jobs_jobs h4 {
+    color: var(--title-color);
+    font-size: 1.125rem;
+    font-weight: var(--font-medium);
+    line-height: 1.75rem;
+}
+
+.jobs_jobs span {
+    color: var(--text-color);
+    font-weight: var(--font-medium);
+    line-height: 1.5rem;
+}
+
+.jobs_jobs section:first-child {
+    display: flex;
+    flex-direction: column;
+    
+}
