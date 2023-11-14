@@ -1,9 +1,12 @@
 .jobs {
-    text-align: center;
-    padding: 6rem 0 4rem 0;
+    margin: 6rem 0 4rem 0;
 }
 
-.jobs span {
+.jobs_team {
+    text-align: center;
+}
+
+.jobs_team span {
     color: var(--main-color);
     text-align: center;
     font-size: 0.875rem;
@@ -14,7 +17,7 @@
     background: rgba(142, 36, 36, 0.05);
 }
 
-.jobs h2 {
+.jobs_team h2 {
     color: var(--title-color);
     font-size: 2.25rem;
     font-weight: var(--font-semi-bold);
@@ -23,41 +26,62 @@
     padding: 1rem 0rem 1.25rem 0rem;
 }
 
-.jobs p {
+.jobs_team p {
     color: var(--text-color);
     font-size: 1.25rem;
     font-weight: var(--font-regular);
     line-height: 1.875rem;
 }
 
-.jobs img {
+.jobs_team img {
     width: 86%;
     height: 20%;
-    padding: 4rem 7rem;
+    margin: 4rem 7rem;
 }
 
-.jobs_jobs h3 {
+.container_jobs {
+    margin: 0rem 5rem;
+    padding: 0rem 20rem;
+}
+
+.container_jobs h3 {
     color: var(--title-color);
     font-size: 1.25rem;
     font-weight: var(--font-medium);
     line-height: 1.875rem;
 }
 
-.jobs_jobs h4 {
+.container_jobs h4 {
     color: var(--title-color);
     font-size: 1.125rem;
     font-weight: var(--font-medium);
     line-height: 1.75rem;
+    padding-bottom: 2rem;
 }
 
-.jobs_jobs span {
+.container_jobs span {
     color: var(--text-color);
     font-weight: var(--font-medium);
-    line-height: 1.5rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    background: rgba(142, 36, 36, 0.05);
 }
 
-.jobs_jobs section:first-child {
-    display: flex;
-    flex-direction: column;
-    
+.container_jobs span:last-child {
+    margin-left: 1rem;
 }
+
+.design_jobs article {
+    width: 45rem;
+    height: 5.25rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border-jobs);
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    text-align: start;
+}
+
+.design_jobs article:first-of-type {
+    margin: 2rem 0rem 1.5rem 0rem;
+}
+
+/* Seção Desenvolvimento de Software */
