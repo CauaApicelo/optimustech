@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--background-footer);
+    text-align: center;
+    padding: 6rem 0rem;
+}
+
+.footer h6 {
+    color: var(--title-color);
+    font-size: 2.25rem;
+    font-weight: var(--font-semi-bold);
+    letter-spacing: -0.045rem;
+}
+
+.footer p:first-of-type {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: var(--font-regular);
+    margin: 1.25rem 0rem 2.5rem 0rem;
+}
+
+.footer input {
+    width: 20.6rem;
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #D0D5DD;
+    background: var(--base-white);
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.footer button {
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: var(--base-white);
+    font-weight: var(--font-medium);
+    margin-bottom: 2rem;
+}
