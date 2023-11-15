@@ -12,6 +12,7 @@
     --base-white: #ffffff;
     --border-jobs: #EAECF0;
     --background-footer: #F9FAFB;
+    --box-shadow-color: rgba(16, 24, 40, 0.05);
 
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
