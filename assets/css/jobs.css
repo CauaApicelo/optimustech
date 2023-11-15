@@ -44,6 +44,19 @@
     padding: 0rem 20rem;
 }
 
+.design_jobs article {
+    width: 45rem;
+    height: 5.25rem;
+    border-radius: 1rem;
+    border: 2px solid var(--border-jobs);
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    text-align: start;
+}
+
+.design_jobs article:first-of-type {
+    margin: 2rem 0rem 1.5rem 0rem;
+}
+
 .container_jobs h3 {
     color: var(--title-color);
     font-size: 1.25rem;
@@ -71,17 +84,22 @@
     margin-left: 1rem;
 }
 
-.design_jobs article {
+
+/* Seção Desenvolvimento de Software */
+
+.development_jobs article {
     width: 45rem;
     height: 5.25rem;
     border-radius: 1rem;
-    border: 1px solid var(--border-jobs);
+    border: 2px solid var(--border-jobs);
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     text-align: start;
 }
 
-.design_jobs article:first-of-type {
-    margin: 2rem 0rem 1.5rem 0rem;
+.development_jobs article:nth-last-child(2) {
+    margin: 1.5rem 0rem;
 }
 
-/* Seção Desenvolvimento de Software */
+.development_jobs h3 {
+    margin: 4rem 0rem 2rem 0rem;
+}
