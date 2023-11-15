@@ -41,12 +41,15 @@
     color: var(--main-color);
     font-size: 3.75rem;
     font-weight: var(--font-semi-bold);
+    line-height: 4.5rem;
+    letter-spacing: -0.075rem;
 }
 
 .about_us_findings span {
     color: var(--title-color);
     font-size: 1.125rem;
     font-weight: var(--font-medium);
+    margin: .75rem 0rem .5rem 0rem;
 }
 
 .about_us_findings p {
