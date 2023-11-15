@@ -2,13 +2,14 @@
     margin: 6rem 0 4rem 0;
 }
 
+/* Seção time vagas */
+
 .jobs_team {
     text-align: center;
 }
 
 .jobs_team span {
     color: var(--main-color);
-    text-align: center;
     font-size: 0.875rem;
     font-weight: var(--font-medium);
     line-height: 1.25rem;
@@ -21,16 +22,14 @@
     color: var(--title-color);
     font-size: 2.25rem;
     font-weight: var(--font-semi-bold);
-    line-height: 2.75rem;
     letter-spacing: -0.045rem;
-    padding: 1rem 0rem 1.25rem 0rem;
+    margin: 1rem 0rem 1.25rem 0rem;
 }
 
 .jobs_team p {
     color: var(--text-color);
     font-size: 1.25rem;
     font-weight: var(--font-regular);
-    line-height: 1.875rem;
 }
 
 .jobs_team img {
@@ -39,22 +38,20 @@
     margin: 4rem 7rem;
 }
 
+/* Seção vagas */
+
 .container_jobs {
     margin: 0rem 5rem;
     padding: 0rem 20rem;
 }
 
-.design_jobs article {
+.container_jobs article{
     width: 45rem;
     height: 5.25rem;
     border-radius: 1rem;
     border: 2px solid var(--border-jobs);
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     text-align: start;
-}
-
-.design_jobs article:first-of-type {
-    margin: 2rem 0rem 1.5rem 0rem;
 }
 
 .container_jobs h3 {
@@ -80,26 +77,20 @@
     background: rgba(142, 36, 36, 0.05);
 }
 
-.container_jobs span:last-child {
-    margin-left: 1rem;
+/* Seção Design */
+
+.design_jobs article:first-of-type {
+    margin: 2rem 0rem 1.5rem 0rem;
 }
 
 
 /* Seção Desenvolvimento de Software */
 
-.development_jobs article {
-    width: 45rem;
-    height: 5.25rem;
-    border-radius: 1rem;
-    border: 2px solid var(--border-jobs);
-    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
-    text-align: start;
+.development_jobs h3 {
+    margin: 4rem 0rem 2rem 0rem;
 }
 
 .development_jobs article:nth-last-child(2) {
     margin: 1.5rem 0rem;
 }
 
-.development_jobs h3 {
-    margin: 4rem 0rem 2rem 0rem;
-}
